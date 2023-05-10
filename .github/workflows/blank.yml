@@ -16,3 +16,5 @@ jobs:
       uses: repo-sync/pull-request@v2
       with:
         destination_branch: "main"
+        pr_title: "Pulling lingoport into develop branch"
+        pr_body: "*An automated PR by github actions to sync lingoport & develop*"
